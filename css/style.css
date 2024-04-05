@@ -131,7 +131,7 @@ h3{
 
 .immagine{
     align-items: center;
-    width: 750px;
+    max-width: 750px;
 }
 
 @media (max-width:600px){
@@ -145,7 +145,7 @@ h3{
 
     .hero img{
         height: 100%;
-        width: 150px;
+        width: 100px;
     }
 
     .paragrafo{
