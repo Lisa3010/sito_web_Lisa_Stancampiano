@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: "inter"
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    background-color:red;
+    color: white;
+}
+
+footer{
+    max-width: 100%;
+    margin: auto;
+    background-color: red;
+    color: white;
+}
+
+.container{
+    padding: 24px 0;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div.container{
+    padding: 42px 0;
+}
+
+.nav{ 
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a, h1{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    padding: 24px 0;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.hero img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero h2{
+    font-size: 42px;
+    width: 400px;
+}
+
+.pagina {
+    margin: auto;
+    padding: 0px 0 45px 0;
+    max-width: 100%;
+   
+}
+
+
+
+p{
+    padding: 16px 0 0 0;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+h3{
+    text-align: center;
+    padding: 12px 0;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: red;
+    text-decoration: underline;
+    max-width: 100%;
+}
+
+.paragrafo{
+    display: flex;
+    gap: 150px;
+    padding-top: 30px;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.immagine img{
+    width: 750px;
+   
+}
+
+.immagine{
+    align-items: center;
+    width: 750px;
+}
+
+@media (max-width:600px){
+    ul{
+        display: block;
+    }
+
+    .hero h2{
+        font-size: 32px;
+    }
+
+    .hero img{
+        height: 100%;
+        width: 150px;
+    }
+
+    .paragrafo{
+        width: 100%;
+        display: block;
+        
+    }
+
+    .immagine img{
+        width: 100px;
+        padding: 24px;
+    }
+
+    .container{
+        margin: 0 24px 0 24px;
+    }
+    .hero{
+        margin: 0 24px 0 24px;
+    }
+
+    p{
+        margin: 0 24px 0 24px ;
+    }
+}
+
+
